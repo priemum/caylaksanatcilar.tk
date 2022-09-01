@@ -9,7 +9,7 @@ const server = http.createServer(app);
 const path = require("path");
 
 const cookieParser = require("cookie-parser");
-const axios = require("axios");
+const axios = require("axios");           
 
 const { MessageEmbed, WebhookClient } = require("discord.js");
 const kurnazBot = new WebhookClient({
